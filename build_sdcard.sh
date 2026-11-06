@@ -50,7 +50,7 @@ if [ "$ONLY_UPDATE_SYSTEM" = "false" ]; then
 		dd if=/dev/zero of=$DOWNLOAD_IMG bs=1024 count=8388608
 	elif [ $DOWNLOAD_SIZE = "11811160064" ]; then
 		dd if=/dev/zero of=$DOWNLOAD_IMG bs=1024 count=11534336
-	elif [ $DOWNLOAD_SIZE = "15032385536" ]; then
+	elif [ $DOWNLOAD_SIZE = "12884901888" ]; then
 		dd if=/dev/zero of=$DOWNLOAD_IMG bs=1024 count=14680064
 	else
 		echo "DOWNLOAD_SIZE not match !!!"
